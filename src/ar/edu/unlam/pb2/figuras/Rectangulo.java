@@ -20,4 +20,8 @@ public class Rectangulo {
 		perimetro = (this.base+this.altura)*2;
 		return perimetro;
 	}
+
+	public Double getArea() {
+		return this.base * this.altura;
+	}
 }
